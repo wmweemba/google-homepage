@@ -7,31 +7,46 @@
         <link href="style/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-            <ul id="top-nav">
-                    <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-                    <li><a href="https://www.google.co.zm/imghp?hl=en&tab=wi">Images</a></li>
-                    <li><a href="https://www.google.co.zm/intl/en/about/products?tab=wh">Google Apps</a></li>
-                    <li><a href="https://www.google.co.zm">Profile</a></li>
-            </ul>
-        <div id="logo">
+        <div>
+            <ol class="top-nav"
+                <li><a href="https://www.google.co.zm/imghp?hl=en&tab=wi">Images</a></li>
+                <li><a href="https://www.google.co.zm/intl/en/about/products?tab=wh">Google Apps</a></li>
+                <li><a href="https://www.google.co.zm">Profile</a></li>
+                <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+             </ol>
+        </div>
+
+        <div class="logo">
             <img src="images\google-logo.gif" alt="google">
         </div>
-        <div id=search-box>
-            <input type="text">
-        </div>
-        <div id="buttons">
-            <input type="button" value="search" aria-label="Search Google">
-            <input type="button" value="lucky" aria-label="Feeling Luck?">
+        <div class="everything">
+            <table class="contents">
+            <tr><td span="2"><input class="search-box" type="text" max-length="2048"></td></tr>
+            </table>
+
+            <table class="buttons">
+            <tr><td><input class="search-button" type="button" value="search" aria-label="Search Google"></td>
+            <td><input class="feel-lucky" type="button" value="lucky" aria-label="Feeling Luck?"></td></tr>
+            </table>
         </div>
         <div class="offering">
-            "Google offered in"
+            Google offered in:  
             <a href="https://www.google.com/setprefs?sig=0_jyZqY_-4SnpcRVIxwUyP1ITyzcc%3D&amp;hl=ny&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiVrc6Yn6XgAhXkl4sKHb4WAKUQ2ZgBCAc">Chichewa</a>
             <a href="https://www.google.com/setprefs?sig=0_jyZqY_-4SnpcRVIxwUyP1ITyzcc%3D&amp;hl=bem&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiVrc6Yn6XgAhXkl4sKHb4WAKUQ2ZgBCAg">IciBemba</a>
             <a href="https://www.google.com/setprefs?sig=0_jyZqY_-4SnpcRVIxwUyP1ITyzcc%3D&amp;hl=tum&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiVrc6Yn6XgAhXkl4sKHb4WAKUQ2ZgBCAk">Tumbuka</a>
             <a href="https://www.google.com/setprefs?sig=0_jyZqY_-4SnpcRVIxwUyP1ITyzcc%3D&amp;hl=loz&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiVrc6Yn6XgAhXkl4sKHb4WAKUQ2ZgBCAo">Lozi</a>
         </div>
-        <ul class="bottom-nav">
-            <li>Zambia</li>
-        </ul>
+    
+        <div class="lower-nav">
+        <ol class="bottom-nav">
+            <li style="float:left"><a href="https://www.google.co.zm/intl/en/about/products?tab=wh">Advertising</a></li>
+            <li style="float:left"><a href="https://www.google.co.zm">Business</a></li>
+            <li style="float:left"><a href="https://mail.google.com/mail/">About</a></li>
+
+            <li style="float:right"><a href="https://www.google.co.zm/intl/en/about/products?tab=wh">Privacy</a></li>
+            <li style="float:right"><a href="https://www.google.co.zm">Terms</a></li>
+            <li style="float:right"><a href="https://mail.google.com/mail/">Settings</a></li>
+        </ol>
+        </div>
     </body>
 </html>

@@ -1,29 +1,62 @@
-ul {
+.top-nav li {
+    margin: 0px;
+    float: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 5px;
+}
+
+.top-nav ol {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
-  li {
-      float: right;
-  }
+.logo {
+    margin: 0 auto;
+    display: grid;
+    width: 700px;
+}
 
-  a {
+.everything {
+    margin: 0 auto;
+    display: grid;
+    width: 500px;
+    padding: 10px;
+}
+
+.offering {
+    margin: 0 auto;
     display: block;
-    padding: 8px;
-  }
+    width: 500px;
+    padding: 10px;
+}
 
-  .offering {
-      display: inline-block;
-      line-height: 10px;
-  }
+.bottom-nav li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 3px;
+    text-decoration: none;
+    display: inline;
+    float: right;
+}
 
-  .bottom-nav ul{
-      list-style-type: none;
-      margin: 10px;
-      padding: 10px;
-  }
+.search-box {
+    border: 1px solid black;
+    width: 400px;
+    height: 20px;
+    border-radius: 3px;
+}
 
-  .bottom-nav li {
-      float: left;
-  }
+.search-button, .feel-lucky {
+    width: 150px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.lower-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: azure;
+}
