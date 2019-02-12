@@ -17,18 +17,11 @@
     width: 700px;
 }
 
-.everything {
-    margin: 0 auto;
-    display: grid;
-    width: 500px;
-    padding: 10px;
-}
-
 .offering {
     margin: 0 auto;
     display: block;
     width: 500px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .bottom-nav li {
@@ -41,22 +34,57 @@
     float: right;
 }
 
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 9%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
 .search-box {
     border: 1px solid black;
-    width: 400px;
-    height: 20px;
+    width: 580px;
+    height: 40px;
+    text-indent: 15px;
     border-radius: 3px;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    padding: 1px;
+    font-size: 20px;
+    cursor: text;
 }
 
 .search-button, .feel-lucky {
     width: 150px;
     padding-left: 5px;
     border-radius: 5px;
+    -webkit-appearance: push-button;
+    color: rgba(179, 180, 184, 0.87);
+    background-color: rgba(226, 230, 241, 0.87);
+    height: 36px;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    min-width: 54px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .lower-nav {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: azure;
+    background-color: lightgrey;
 }
